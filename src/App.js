@@ -1,22 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+// import Test from '../src/Component/Text';
+// import Msg from './Component/Msg';
+import Product from './Component/Product';
 function App() {
+  let product1 = {
+    title:"Mouse",
+    desc:"kjfbkjb dnjkffkjwn hduwe hdnwe",
+    oldPrice:300,
+    newPrice:230
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
+        <Product product = {product1}/>
       </header>
     </div>
   );
