@@ -1,19 +1,16 @@
 import './App.css';
+// import Button from './Component/Button';
 // import Test from '../src/Component/Text';
 // import Msg from './Component/Msg';
-import Product from './Component/Product';
+// import Product from './Component/Product';
+import Lottery from './Component/Lottery';
 function App() {
-  let product1 = {
-    title:"Mouse",
-    desc:"kjfbkjb dnjkffkjwn hduwe hdnwe",
-    oldPrice:300,
-    newPrice:230
-  }
-  return (
+
+  return (  
     <div className="App">
       <header className="App-header">
       
-        <Product product = {product1}/>
+       <Lottery/>
       </header>
     </div>
   );
